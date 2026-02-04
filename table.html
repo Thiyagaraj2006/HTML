@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Tags</title>
+</head>
+
+<body>
+
+    <!-- baisc Table -->
+    <h2>Basic Table:</h2>
+    <p>Students Marks:</p>
+    <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Marks</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Ram</td>
+            <td>30</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Shyam</td>
+            <td>25</td>
+        </tr>
+    </table>
+
+
+    <!-- Advation Table -->
+
+    <h2>Advation Table:</h2>
+    <p>Students Marks:</p>
+
+    <table border="1" cellpadding="10" cellspacing="0">
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>Marks</th>
+
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Ram</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Shyam</td>
+                <td>25</td>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td></td>
+                <td>55</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- colum span Table -->
+
+    <h2>Colum Span Table:</h2>
+    <p>Students Marks:</p>
+
+    <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Marks</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Ram</td>
+            <td>30</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Shyam</td>
+            <td>25</td>
+        </tr>
+
+        <tr>
+            <td colspan="2">Total</td>
+            <td>55</td>
+        </tr>
+    </table>
+    
+    <!-- row span Table -->
+     
+    <h2>Row Span Table:</h2>
+    <p>Students Marks:</p>
+
+
+    <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>subjcet 1</th>
+            <th>subject 2</th>
+        </tr>
+
+        <tr>
+            <td rowspan="2">1</td>
+            <td>Ram</td>
+            <td>30</td>
+            <td>25</td>
+        </tr>
+
+        <tr>
+            <td>Shyam</td>
+            <td>25</td>
+            <td>30</td>
+        </tr>
+
+        <tr>
+            <td colspan="2">Total</td>
+            <td>55</td>
+            <td>55</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

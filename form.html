@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form tags</title>
+</head>
+<body>
+
+    <!-- from tags -->
+    <form >
+        
+         <!-- HAED -->
+        <h2>Registration Form</h2>
+        
+        <!-- first name -->
+        <label for="first name">Fisrt Name:</label>
+        <input typr="text" placeholder="Enter First Name" name="first name">
+        <br><br>
+
+        <!-- last Name -->
+        <label for="last name">Last Name:</label>
+        <input type="text" placeholder="Enter Last Name" name="last name">
+        <br><br>
+
+        <!-- email -->
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Enter Email Address">
+        <br><br>
+        
+        <!-- password -->
+        <label for="password">password: </label>
+        <input type="password" placeholder="" name="password">
+        <br><br>
+
+        <!-- gender rodio button -->
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> Other
+        <br><br>
+
+        <!-- age (number)-->
+
+        <label for="age">Age</label>
+        <input type="number" placeholder="Enter your age" name="age">
+        <br><br>
+        
+        <!--prefernces checkbox button -->
+        <label for="prefernces">Prefernces:</label><br>
+        <input type="checkbox" name="prefernces"> Music<br>
+        <input type="checkbox" name="prefernces"> Sports <br>  
+        <input type="checkbox" name="prefernces"> Reading <br>
+        <br>
+
+
+        <!-- with for dropdown menu -->
+        <label for="occupation">Select Occupation:</label>
+            <select name="occupation">
+                <option value="student">Student</option>
+                <option value="employed">Employed</option>
+                <option value="self-employed">Self-Employed</option>
+                <option value="unemployed">Unemployed</option>
+            </select>
+
+        <!-- without for dropdown menu -->
+
+        <label>
+            Select Occupation:
+            <select name="occupation">
+                <option value="student">Student</option>
+                <option value="employed">Employed</option>
+                <option value="self-employed">Self-Employed</option>
+                <option value="unemployed">Unemployed</option>
+            </select>
+        </label>
+        
+        <br><br>
+        <label for="bio">Short Bio:</label><br>
+        <textarea name="bio" rows="4" cols="50" placeholder="Tell us about yourself...">Name: Age:</textarea>
+        
+        <!-- submit and reset buttons -->
+        <br><br>
+        <input type="submit" value="SUBMIT">
+        <input type="reset" value="RESET">
+    </form>
+    
+</body>
+</html>
